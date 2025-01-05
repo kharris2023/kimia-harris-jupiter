@@ -1,3 +1,9 @@
+h1 {
+  text-align: center;
+  color: darkblue;
+  font-size: 45px;
+}
+
 body {
   background-color: mintcream;
   color: black;
@@ -24,14 +30,23 @@ section {
   padding: 25px;
   margin: 5px 0;
   border-radius: 50px;
+  flex-direction: column;
+}
+
+.job-title {
+  font-weight: bold;
+  margin: 15px 5px;
+}
+
+.date {
+  text-align: right;
+}
+
+.description {
+  font-style: italic;
 }
 
 a {
   background-color: lightblue;
-}
-
-h1 {
-  text-align: center;
-  color: darkblue;
-  font-size: 45px;
+  font-size: 20px;
 }
