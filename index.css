@@ -1,9 +1,3 @@
-h1 {
-  text-align: center;
-  color: darkblue;
-  font-size: 45px;
-}
-
 body {
   background-color: mintcream;
   color: black;
@@ -14,10 +8,19 @@ body {
   margin: 50px;
 }
 
-.header {
-  font-size: 30px;
-  font-weight: 30px;
-  color: darkgreen;
+h1 {
+  text-align: center;
+  color: darkblue;
+  font-size: 45px;
+}
+
+p {
+  margin: 10px;
+}
+
+a {
+  background-color: lightblue;
+  font-size: 20px;
 }
 
 section {
@@ -25,28 +28,50 @@ section {
   margin: 20px;
 }
 
-#experience-list {
-  background-color: pink;
-  padding: 25px;
-  margin: 5px 0;
-  border-radius: 50px;
-  flex-direction: column;
+.header {
+  font-size: 30px;
+  font-weight: 30px;
+  color: darkgreen;
+}
+
+.title-date {
+  display: flex;
+  justify-content: space-between;
 }
 
 .job-title {
   font-weight: bold;
-  margin: 15px 5px;
-}
-
-.date {
-  text-align: right;
 }
 
 .description {
   font-style: italic;
+  margin-top: 0;
 }
 
-a {
-  background-color: lightblue;
-  font-size: 20px;
+.experience-item {
+  margin-bottom: 50px;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.date {
+  font-size: 1em;
+  color: gray;
+}
+
+#experience-list {
+  background-color: pink;
+  padding: 25px;
+  border-radius: 50px;
+}
+
+#connect > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  background-color: lightgreen;
+  padding: 2.5em;
 }
